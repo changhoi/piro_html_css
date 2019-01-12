@@ -1,0 +1,106 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contents_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+}
+
+.contents_text h2 {
+    padding: 0;
+    margin: 0 0 18px 0;
+    font-size: 32px;
+    color: white
+}
+
+.contents_text span {
+    font-size: 22px;
+    color: white;
+}
+
+.contents_text a div {
+    columns: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #5900E7;
+    margin-top: 38px;
+}
+div.img.contents_text {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-inner .carousel-item:nth-child(1) div.img.contents_text {
+    background-image: url("../images/cooking.jpg");
+    background-position: center center;
+}
+
+
+.carousel-inner .carousel-item:nth-child(2) div.img.contents_text {
+    background-image: url("../images/makeup.jpg");
+    background-position: center top;
+}
+
+.carousel-inner .carousel-item:nth-child(3) div.img.contents_text {
+    background-image: url("../images/guitar.jpg");
+    background-position: left center;
+}
+
+#carouselExampleIndicators {
+    margin-bottom: 50px;
+}
+
+.article_section {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    margin-bottom: 70px;
+}
+
+div.container div.row > div {
+    padding: 15px;
+    
+}
+
+div.img_card .description {
+    padding: 10px;
+}
+
+div.img_card {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.description p {
+    padding-bottom: 10px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.description .tutor img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.description .tutor {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+div.container div.row a {
+    color: #4a4a4a;
+    text-decoration: none;   
+}
